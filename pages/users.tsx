@@ -1,17 +1,12 @@
 import Layout from "../components/layout";
-import { FetchStatistics } from "../src/fetch";
 
 export default function Index(): JSX.Element {
 	return (
 		<Layout>
 			<header>
-				<h1>Dave&apos;s Amazing Data Application</h1>
+				<h1>Our <s>victims</s> <i>users</i></h1>
 				<hr />
-				<p>It&apos;s great!</p>
-				<fieldset>
-					<legend>Currently surveiling</legend>
-					<p>{ FetchStatistics() } users</p>
-				</fieldset>
+				<p>They&apos;re also great!</p>
 			</header>
 			<article>
 				<h2>What does DATA do?</h2>
