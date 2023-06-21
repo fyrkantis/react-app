@@ -2,9 +2,7 @@ import Layout from "../components/layout";
 import { useRouter } from 'next/router';
 import type { GetStaticProps } from 'next';
 
-type Props = Record<string, never>;
-
-export const getStaticProps: GetStaticProps<Props> = () => {
+export const getStaticProps: GetStaticProps<Record<string, never>> = () => {
 	return { props: {} };
 };
 

@@ -1,3 +1,4 @@
+import "bootstrap/dist/css/bootstrap.min.css"
 import Nav from "./nav";
 
 // Handle multiple neighboring children like this:
